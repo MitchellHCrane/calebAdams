@@ -1,0 +1,119 @@
+.loanCalculator-div {
+  margin: 64px 8%;
+}
+
+.loanCalcText .small {
+  font-size: 14px;
+}
+
+.mortgageCalculator {
+  margin-top: 32px;
+}
+
+/* Background */
+.mortgageCalculator ._2rRxbhZfd2m69aGyclMHup {
+  background: none;
+  padding: 0;
+  border: none;
+}
+
+/* Form Styles */
+.mortgageCalculator .FhD6sRmOe8tMY0xW6D0KO {
+  padding-bottom: 32px;
+}
+
+/* Input Icon */
+.mortgageCalculator ._3UZinu8u1JJRVIMHioZRr5 {
+  height: 64px;
+  font-size: 24px;
+  color: #2ca4f2;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Advanced Button */
+.mortgageCalculator ._39yvVzrxrpb0jfSJ06VKQG {
+  display: none;
+}
+
+/* Input Container */
+.mortgageCalculator ._3N7LQgadYQG6Efvq5phiUY {
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+/* Input styles and Label */
+.mortgageCalculator .FhD6sRmOe8tMY0xW6D0KO input,
+.mortgageCalculator .FhD6sRmOe8tMY0xW6D0KO select {
+  font-family: "OpenSans", Helvetica, Arial;
+  border: 1px solid #91959d;
+  height: 64px;
+  border-radius: 8px;
+  margin-top: 8px;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px 24px 0px 24px;
+  color: #91959d;
+  background-color: white;
+}
+
+.mortgageCalculator .FhD6sRmOe8tMY0xW6D0KO label {
+  font-weight: 900;
+  font-size: 18px;
+  font-family: "SourceSansPro-Black", Helvetica, Arial;
+  color: #004e82;
+  margin-bottom: 8px;
+}
+
+/* results */
+.mortgageCalculator ._3gGF3MGRKxzQZh6RczOEoz {
+  display: none;
+}
+
+.mortgageCalculator ._37q431tzwiJw837-Dlr_8F {
+  margin-top: 0;
+}
+
+.mortgageCalculator .ggtReN8zzGuVkr5-qrqOl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #004e82;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.mortgageCalculator ._1b3zzIo85pUJ3f_AHItArg,
+.mortgageCalculator .jAN-uedtUK0ALBwN8-1Q0 {
+  border-bottom: 0;
+}
+
+/*  Fully Paid */
+.mortgageCalculator ._3N7LQgadYQG6Efvq5phiUY + div {
+  text-align: center;
+  color: #91959d;
+  font-weight: 900;
+  margin-top: 32px;
+}
+
+/* React NPM Link */
+.mortgageCalculator ._2QxqScDSDuK4P0ny7KZKNr {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .loanCalcText {
+    text-align: center;
+  }
+  .loanCalculator-div {
+    margin: 0 auto;
+    max-width: 504px;
+  }
+}

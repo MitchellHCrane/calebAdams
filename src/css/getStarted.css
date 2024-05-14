@@ -1,0 +1,32 @@
+.getStarted-div {
+  background-color: #fff;
+  margin: 0 0 64px;
+}
+
+.getStartedBackground {
+  background-image: url(../images/getStartedBackground.png);
+  background-color: #2ca4f2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 8% 160px;
+}
+
+.getStartedH2 {
+  font-size: 36px;
+}
+
+.grid-container {
+  max-width: 1024px;
+  margin: -96px auto 0;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
