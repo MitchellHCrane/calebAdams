@@ -1,4 +1,5 @@
 import "../css/App.css";
+import Slider from "react-slick";
 
 const testimonials = [
   {
@@ -28,6 +29,13 @@ const testimonials = [
 ];
 
 export default function Testimonials() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div className="bg-white pb-16 pt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -37,7 +45,31 @@ export default function Testimonials() {
           </h1>
         </div>
         <div className="mx-auto mt-8 flow-root max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          {/* Mobile carousel  */}
+          <div className="md:hidden">
+            <Slider {...settings}>
+              {testimonials.map((testimonial) => (
+                <div
+                  key={testimonial.id}
+                  className="pt-6 sm:inline-block sm:w-full sm:px-4"
+                >
+                  <figure className="rounded-2xl bg-gray-100 p-8 h-full text-sm leading-6">
+                    <blockquote>
+                      <p className="italic text-black">{`“${testimonial.body}”`}</p>
+                    </blockquote>
+                    <figcaption className="mt-6 flex items-center gap-x-4">
+                      <div>
+                        <div className="font-bold text-[#004e82]">
+                          ~{testimonial.name}
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              ))}
+            </Slider>
+          </div>
+          <div className="hidden md:grid grid-cols-1 md:grid-cols-2">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
